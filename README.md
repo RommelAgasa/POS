@@ -15,4 +15,10 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-## I'am learning fullstack development so I am making this simple POS application using this React + Tailwindcss in frontend and ASP.NET Core Web API + MSSQL as backend.
+## Project Overview
+
+I am currently learning Fullstack Development, and as part of my practice, I am building a simple **POS (Point of Sale) application**.  
+
+- **Frontend:** React + Tailwind CSS  
+- **Backend:** ASP.NET Core Web API  
+- **Database:** Microsoft SQL Server (MSSQL)  
