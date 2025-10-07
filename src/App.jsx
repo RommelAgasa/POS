@@ -1,15 +1,21 @@
 import './App.css'
 import Category from './components/category'
 import Menu from './components/menu'
+import Invoice from './components/invoice';
 
 function App() {
   return (
-    <div className="grid gap-3 p-3 overflow-hidden h-screen">
-      <div>
-        <Category />
+    <div className="grid grid-cols-7 gap-3 p-3 overflow-hidden h-screen">
+      <div className='grid col-span-5 gap-3'>
+        <div>
+          <Category />
+        </div>
+        <div>
+          <Menu />
+        </div>
       </div>
-      <div>
-        <Menu />
+      <div className='col-span-2'>
+        <Invoice />
       </div>
     </div>
   );

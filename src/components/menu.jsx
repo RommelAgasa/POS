@@ -1,6 +1,5 @@
 import food_img from '../assets/img/fresh-pasta-with-hearty-bolognese-and-parmesan-cheese.jpg'
 
-
 function ItemCard(props){
     const {img, itemName, desc, price} = props;
     
