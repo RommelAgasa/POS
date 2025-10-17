@@ -6,7 +6,7 @@ import Invoice from './components/invoice';
 function App() {
   return (
     <div className="grid grid-cols-7 gap-3 p-3 overflow-hidden h-screen">
-      <div className='grid col-span-5 gap-3'>
+      <div className='col-span-5 gap-3'>
         <div>
           <Category />
         </div>
